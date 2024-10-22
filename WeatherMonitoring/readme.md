@@ -46,24 +46,24 @@ To run this project, you need:
 
 Setup and Installation
 
-	1.	Clone the repository:
-      git clone https://github.com/your-username/weather-monitoring.git
-      cd weather-monitoring
-	2.	Set up the OpenWeatherMap API key:
-      Open the application.properties file and add your OpenWeatherMap API key:
-      weather.api.key=YOUR_API_KEY_HERE
-	3.	Set up email notifications:
-      Configure your SMTP email service (e.g., Gmail) in the application.properties file:
-      spring.mail.host=smtp.gmail.com
-      spring.mail.port=587
-      spring.mail.username=your-email@gmail.com
-      spring.mail.password=your-app-specific-password
-      spring.mail.properties.mail.smtp.auth=true
-      spring.mail.properties.mail.smtp.starttls.enable=true
-      Note: If you have 2FA enabled, use an app-specific password instead of your regular password.
-  4.  Run the application:
-        •	Using Maven:
-          mvn spring-boot:run
+	1. Clone the repository:
+	      git clone https://github.com/your-username/weather-monitoring.git
+	      cd weather-monitoring
+	2. Set up the OpenWeatherMap API key:
+	      Open the application.properties file and add your OpenWeatherMap API key:
+	      weather.api.key=YOUR_API_KEY_HERE
+	3. Set up email notifications:
+	      Configure your SMTP email service (e.g., Gmail) in the application.properties file:
+	      spring.mail.host=smtp.gmail.com
+	      spring.mail.port=587
+	      spring.mail.username=your-email@gmail.com
+	      spring.mail.password=your-app-specific-password
+	      spring.mail.properties.mail.smtp.auth=true
+	      spring.mail.properties.mail.smtp.starttls.enable=true
+	      Note: If you have 2FA enabled, use an app-specific password instead of your regular password.
+	4.  Run the application:
+	        • Using Maven:
+	       	    mvn spring-boot:run
 
 	  
 
