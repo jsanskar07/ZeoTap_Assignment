@@ -17,7 +17,7 @@ import java.util.*;
 @Service
 public class WeatherService {
 
-    private static final String API_KEY = "5f66bb83ffae84c2fba2e2ba6bb6e872";
+    private static final String API_KEY = "Your API Key";
     private static final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s";
 
     @Autowired
